@@ -59,3 +59,56 @@ button {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.body-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.body-1 h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.body-1 .content {
+    display: flex;
+    gap: 20px;
+}
+
+.body-1 img {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.body-1 .text {
+    text-align: center;
+    font-weight: 500;
+}
+
+.body-2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 350px;
+}
+
+.body-2 .quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.body-2 .author {
+    font-size: 20px;
+    font-weight: 550;
+    align-self: flex-end;
+}
