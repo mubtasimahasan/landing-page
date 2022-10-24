@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
@@ -17,7 +18,7 @@ body {
     align-items: center;
 }
 
-.header-content{
+.header .content{
     display: flex;
     padding: 80px 0;
     justify-content: space-between;
@@ -33,7 +34,7 @@ button {
     padding: 10px 0;
 }
 
-.header ul{
+.header ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
@@ -44,7 +45,7 @@ button {
     color: #E5E7EB;
 }
 
-.header-text h1 {
+.header h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -55,12 +56,17 @@ button {
     color: #E5E7EB;
 }
 
+.header img {
+    width: 400px;
+    height: 250px;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.body-1 {
+.body-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,30 +75,30 @@ button {
     padding-bottom: 100px;
 }
 
-.body-1 h1{
+.body-main h1{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 
-.body-1 .content {
+.body-main .content {
     display: flex;
     gap: 20px;
 }
 
-.body-1 img {
+.body-main img {
     width: 200px;
     height: 300px;
     border: 2px solid #3882F6;
     border-radius: 5px;
 }
 
-.body-1 .text {
+.body-main .text {
     text-align: center;
     font-weight: 500;
 }
 
-.body-2 {
+.body-quote {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -100,15 +106,49 @@ button {
     align-items: center;
     flex-wrap: wrap;
     padding: 100px 350px;
+    gap: 20px
 }
 
-.body-2 .quote {
+.body-quote .text {
     font-size: 36px;
     font-style: italic;
 }
 
-.body-2 .author {
+.body-quote .author {
     font-size: 20px;
     font-weight: 550;
     align-self: flex-end;
+}
+
+.body-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    margin: 100px 200px;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.body-action .text {
+    color:#F9FAF8;
+}
+
+.body-action h1 {
+    margin-bottom: 5px;
+}
+
+.body-action p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
