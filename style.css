@@ -6,21 +6,26 @@ body {
 
 .header {
     background-color: #1F2937;
+}
+
+.header .container{
+    max-width: 960px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding: 5px 200px;
     flex-wrap: wrap;
 }
 
 .navbar {
+    margin: 24px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 .header .content{
     display: flex;
-    padding: 80px 0;
+    margin-bottom: 48px;
     justify-content: space-between;
     gap: 72px;
 }
@@ -37,7 +42,7 @@ button {
 .header ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .header a {
@@ -71,19 +76,25 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
-.body-main h1{
+.body-main h1 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 
+.body-main .text {
+    font-size: 14px;
+    color: #1F2937;
+}
+
 .body-main .content {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .body-main img {
@@ -105,8 +116,8 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 100px 350px;
-    gap: 20px
+    padding: 100px 320px;
+    gap: 24px
 }
 
 .body-quote .text {
@@ -121,13 +132,18 @@ button {
 }
 
 .body-action {
+    max-width: 960px;
+    margin: 48px auto;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.body-action .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 150px;
-    margin: 100px 200px;
-    background-color: #3882F6;
-    border-radius: 15px;
+    flex-wrap: wrap;
+    padding: 24px 48px;
 }
 
 .body-action .text {
